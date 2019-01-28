@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-client';
+
+  links = [
+    'Account',
+    'Feed',
+    'Events',
+    'Artists',
+    'Venues'
+  ];
 }
